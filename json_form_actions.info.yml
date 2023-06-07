@@ -1,0 +1,4 @@
+name: JSON Form actions
+description: 'Provides a JSON endpoint for any route that contains a form'
+core_version_requirement: ~9.0 || ~10.0
+type: module

@@ -1,0 +1,8 @@
+services:
+  json_form_actions.form_controller:
+    class: Drupal\json_form_actions\Controller\JsonFormController
+    parent: controller.form
+  json_form_actions.route_subscriber:
+    class: Drupal\json_form_actions\Routing\RouteSubscriber
+    tags:
+      - { name: 'event_subscriber' }
